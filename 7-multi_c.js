@@ -3,10 +3,10 @@ const num = Number(firstArgument);
 
 if (Number.isInteger(num)) {
     for(let i=0;i<num;i++){
-
         console.log("C is fun")
     }
+} 
 
-} else {
+else {
     console.log("Missing number of occurrences")
 }
